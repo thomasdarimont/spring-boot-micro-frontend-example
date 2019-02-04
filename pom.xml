@@ -16,7 +16,7 @@
 
 	<modules>
 		<module>acme-example-api</module>
-		<module>acme-example-ui-plain</module>
+		<module>acme-example-ui</module>
 		<module>acme-example-app</module>
 	</modules>
 
@@ -47,7 +47,7 @@
 
 			<dependency>
 				<groupId>com.github.thomasdarimont.training</groupId>
-				<artifactId>acme-example-ui-plain</artifactId>
+				<artifactId>acme-example-ui</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>

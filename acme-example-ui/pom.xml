@@ -7,7 +7,7 @@
 		<artifactId>acme-example</artifactId>
 		<version>1.0.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>acme-example-ui-plain</artifactId>
+	<artifactId>acme-example-ui</artifactId>
 
 	<properties>
 		<node.version>v10.15.1</node.version>
@@ -16,19 +16,6 @@
 	</properties>
 
 	<build>
-
-		<resources>
-			<!-- Replace placeholders in index.html -->
-			<resource>
-				<directory>src/main/frontend</directory>
-				<filtering>true</filtering>
-				<targetPath>public</targetPath>
-				<includes>
-					<include>index.html</include>
-				</includes>
-			</resource>
-		</resources>
-
 		<plugins>
 			<plugin>
 				<groupId>pl.project13.maven</groupId>

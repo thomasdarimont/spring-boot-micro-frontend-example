@@ -4,7 +4,7 @@
 	"private": true,
 	"license": "Apache-2.0",
 	"scripts": {
-		"clean": "rm -rf target/dist",
+		"clean": "rm -rf target/classes/public",
 		"start": "parcel --public-url ./ -d target/classes/public src/main/frontend/index.html",
 		"watch": "parcel watch --public-url ./ -d target/classes/public src/main/frontend/index.html",
 		"build": "parcel build --public-url ./ -d target/classes/public src/main/frontend/index.html"
