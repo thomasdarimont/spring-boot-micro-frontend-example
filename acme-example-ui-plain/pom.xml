@@ -8,15 +8,27 @@
 		<version>1.0.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>acme-example-ui-plain</artifactId>
-	
+
 	<properties>
 		<node.version>v10.15.1</node.version>
 		<yarn.version>v1.13.0</yarn.version>
-		
 		<frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
 	</properties>
 
 	<build>
+
+		<resources>
+			<!-- Replace placeholders in index.html -->
+			<resource>
+				<directory>src/main/frontend</directory>
+				<filtering>true</filtering>
+				<targetPath>public</targetPath>
+				<includes>
+					<include>index.html</include>
+				</includes>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
 				<groupId>pl.project13.maven</groupId>
