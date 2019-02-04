@@ -14,7 +14,7 @@ the Javascript based frontend. Both modules are pulled in as a dependency by `ac
 The `acme-example-ui-plain` maven module uses the `com.github.eirslett:frontend-maven-plugin`
 to delegate to the yarn / node tooling during the maven build process. 
 
-As a build tool we use `yarn` which delegates to the `parceljs` buil-tool.
+As a build tool we use `yarn` which delegates to the [parceljs](https://parceljs.org/) web-application bundler.
 
 ## Setup
 To build the example execute the following in your shell: 
