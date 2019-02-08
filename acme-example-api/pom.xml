@@ -10,9 +10,6 @@
 	</parent>
 	<artifactId>acme-example-api</artifactId>
 
-	<properties>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
